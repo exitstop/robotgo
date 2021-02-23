@@ -27,17 +27,17 @@ package robotgo
 	#cgo darwin CFLAGS: -x objective-c -Wno-deprecated-declarations
 	#cgo darwin LDFLAGS: -framework Cocoa -framework OpenGL -framework IOKit
 	#cgo darwin LDFLAGS: -framework Carbon -framework CoreFoundation
-	#cgo darwin LDFLAGS:-L${SRCDIR}/cdeps/mac -lpng -lz
+	#cgo darwin LDFLAGS:-L${SRCDIR}/cdeps/mac
 //#elif defined(USE_X11)
 	// Drop -std=c11
 	#cgo linux CFLAGS: -I/usr/src
-	#cgo linux LDFLAGS: -L/usr/src -lpng -lz -lX11 -lXtst -lm
+	#cgo linux LDFLAGS: -L/usr/src -lX11 -lXtst -lm
 	// #cgo linux LDFLAGS: -lX11-xcb -lxcb -lxcb-xkb -lxkbcommon -lxkbcommon-x11
 //#endif
-	// #cgo windows LDFLAGS: -lgdi32 -luser32 -lpng -lz
+	// #cgo windows LDFLAGS: -lgdi32 -luser32
 	#cgo windows LDFLAGS: -lgdi32 -luser32
-	#cgo windows,amd64 LDFLAGS: -L${SRCDIR}/cdeps/win64 -lpng -lz
-	#cgo windows,386 LDFLAGS: -L${SRCDIR}/cdeps/win32 -lpng -lz
+	#cgo windows,amd64 LDFLAGS: -L${SRCDIR}/cdeps/win64
+	#cgo windows,386 LDFLAGS: -L${SRCDIR}/cdeps/win32
 // #include <AppKit/NSEvent.h>
 #include "screen/goScreen.h"
 #include "mouse/goMouse.h"
