@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo/clipboard"
+	"github.com/exitstop/robotgo/clipboard"
 )
 
 func main() {

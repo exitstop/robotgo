@@ -7,7 +7,7 @@ import (
 	"image/jpeg"
 	"io/ioutil"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/exitstop/robotgo"
 	"golang.org/x/image/bmp"
 )
 
