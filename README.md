@@ -1,25 +1,25 @@
 # Robotgo
 
-<!--<img align="right" src="https://raw.githubusercontent.com/go-vgo/robotgo/master/logo.jpg">-->
-<!--[![Build Status](https://travis-ci.org/go-vgo/robotgo.svg)](https://travis-ci.org/go-vgo/robotgo)
-[![codecov](https://codecov.io/gh/go-vgo/robotgo/branch/master/graph/badge.svg)](https://codecov.io/gh/go-vgo/robotgo)-->
-<!--<a href="https://circleci.com/gh/go-vgo/robotgo/tree/dev"><img src="https://img.shields.io/circleci/project/go-vgo/robotgo/dev.svg" alt="Build Status"></a>-->
-[![Build Status](https://github.com/go-vgo/robotgo/workflows/Go/badge.svg)](https://github.com/go-vgo/robotgo/commits/master)
-[![CircleCI Status](https://circleci.com/gh/go-vgo/robotgo.svg?style=shield)](https://circleci.com/gh/go-vgo/robotgo)
-[![Build Status](https://travis-ci.org/go-vgo/robotgo.svg)](https://travis-ci.org/go-vgo/robotgo)
-![Appveyor](https://ci.appveyor.com/api/projects/status/github/go-vgo/robotgo?branch=master&svg=true)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-vgo/robotgo)](https://goreportcard.com/report/github.com/go-vgo/robotgo)
-[![GoDoc](https://godoc.org/github.com/go-vgo/robotgo?status.svg)](https://godoc.org/github.com/go-vgo/robotgo)
-[![GitHub release](https://img.shields.io/github/release/go-vgo/robotgo.svg)](https://github.com/go-vgo/robotgo/releases/latest)
-[![Join the chat at https://gitter.im/go-vgo/robotgo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-vgo/robotgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<!-- [![Release](https://github-release-version.herokuapp.com/github/go-vgo/robotgo/release.svg?style=flat)](https://github.com/go-vgo/robotgo/releases/latest) -->
-<!-- <a href="https://github.com/go-vgo/robotgo/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a> -->
+<!--<img align="right" src="https://raw.githubusercontent.com/exitstop/robotgo/master/logo.jpg">-->
+<!--[![Build Status](https://travis-ci.org/exitstop/robotgo.svg)](https://travis-ci.org/exitstop/robotgo)
+[![codecov](https://codecov.io/gh/exitstop/robotgo/branch/master/graph/badge.svg)](https://codecov.io/gh/exitstop/robotgo)-->
+<!--<a href="https://circleci.com/gh/exitstop/robotgo/tree/dev"><img src="https://img.shields.io/circleci/project/exitstop/robotgo/dev.svg" alt="Build Status"></a>-->
+[![Build Status](https://github.com/exitstop/robotgo/workflows/Go/badge.svg)](https://github.com/exitstop/robotgo/commits/master)
+[![CircleCI Status](https://circleci.com/gh/exitstop/robotgo.svg?style=shield)](https://circleci.com/gh/exitstop/robotgo)
+[![Build Status](https://travis-ci.org/exitstop/robotgo.svg)](https://travis-ci.org/exitstop/robotgo)
+![Appveyor](https://ci.appveyor.com/api/projects/status/github/exitstop/robotgo?branch=master&svg=true)
+[![Go Report Card](https://goreportcard.com/badge/github.com/exitstop/robotgo)](https://goreportcard.com/report/github.com/exitstop/robotgo)
+[![GoDoc](https://godoc.org/github.com/exitstop/robotgo?status.svg)](https://godoc.org/github.com/exitstop/robotgo)
+[![GitHub release](https://img.shields.io/github/release/exitstop/robotgo.svg)](https://github.com/exitstop/robotgo/releases/latest)
+[![Join the chat at https://gitter.im/exitstop/robotgo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/exitstop/robotgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<!-- [![Release](https://github-release-version.herokuapp.com/github/exitstop/robotgo/release.svg?style=flat)](https://github.com/exitstop/robotgo/releases/latest) -->
+<!-- <a href="https://github.com/exitstop/robotgo/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a> -->
 
   >Golang Desktop Automation. Control the mouse, keyboard, bitmap, read the screen,   Window Handle and global event listener.
 
 RobotGo supports Mac, Windows, and Linux(X11).
 
-[Chinese Simplified](https://github.com/go-vgo/robotgo/blob/master/README_zh.md)
+[Chinese Simplified](https://github.com/exitstop/robotgo/blob/master/README_zh.md)
 
 ## Contents
 - [Docs](#docs)
@@ -36,9 +36,9 @@ RobotGo supports Mac, Windows, and Linux(X11).
 - [License](#license)
 
 ## Docs
-  - [GoDoc](https://godoc.org/github.com/go-vgo/robotgo)
-  - [API Docs](https://github.com/go-vgo/robotgo/blob/master/docs/doc.md) &nbsp;&nbsp;&nbsp;
-  - [Chinese Docs](https://github.com/go-vgo/robotgo/blob/master/docs/doc_zh.md)
+  - [GoDoc](https://godoc.org/github.com/exitstop/robotgo)
+  - [API Docs](https://github.com/exitstop/robotgo/blob/master/docs/doc.md) &nbsp;&nbsp;&nbsp;
+  - [Chinese Docs](https://github.com/exitstop/robotgo/blob/master/docs/doc_zh.md)
 
 ## Binding:
 
@@ -102,30 +102,30 @@ sudo dnf install xsel xclip
 
 ## Installation:
 ```
-go get github.com/go-vgo/robotgo
+go get github.com/exitstop/robotgo
 ```
   It's that easy!
 
-png.h: No such file or directory? Please see [issues/47](https://github.com/go-vgo/robotgo/issues/47).
+png.h: No such file or directory? Please see [issues/47](https://github.com/exitstop/robotgo/issues/47).
 
 ## Update:
 ```
-go get -u github.com/go-vgo/robotgo
+go get -u github.com/exitstop/robotgo
 ```
 
 Note go1.10.x C file compilation cache problem, [golang #24355](https://github.com/golang/go/issues/24355).
 `go mod vendor` problem, [golang #26366](https://github.com/golang/go/issues/26366).
 
 
-## [Examples:](https://github.com/go-vgo/robotgo/blob/master/examples)
+## [Examples:](https://github.com/exitstop/robotgo/blob/master/examples)
 
-#### [Mouse](https://github.com/go-vgo/robotgo/blob/master/examples/mouse/main.go)
+#### [Mouse](https://github.com/exitstop/robotgo/blob/master/examples/mouse/main.go)
 
 ```Go
 package main
 
 import (
-	"github.com/go-vgo/robotgo"
+	"github.com/exitstop/robotgo"
 )
 
 func main() {
@@ -135,7 +135,7 @@ func main() {
 }
 ```
 
-#### [Keyboard](https://github.com/go-vgo/robotgo/blob/master/examples/key/main.go)
+#### [Keyboard](https://github.com/exitstop/robotgo/blob/master/examples/key/main.go)
 
 ```Go
 package main
@@ -143,7 +143,7 @@ package main
 import (
   "fmt"
 
-  "github.com/go-vgo/robotgo"
+  "github.com/exitstop/robotgo"
 )
 
 func main() {
@@ -172,7 +172,7 @@ func main() {
 }
 ```
 
-#### [Screen](https://github.com/go-vgo/robotgo/blob/master/examples/screen/main.go)
+#### [Screen](https://github.com/exitstop/robotgo/blob/master/examples/screen/main.go)
 
 ```Go
 package main
@@ -180,7 +180,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/exitstop/robotgo"
 )
 
 func main() {
@@ -192,7 +192,7 @@ func main() {
 }
 ```
 
-#### [Bitmap](https://github.com/go-vgo/robotgo/blob/master/examples/bitmap/main.go)
+#### [Bitmap](https://github.com/exitstop/robotgo/blob/master/examples/bitmap/main.go)
 
 ```Go
 package main
@@ -200,7 +200,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/exitstop/robotgo"
 )
 
 func main() {
@@ -217,7 +217,7 @@ func main() {
 }
 ```
 
-#### [Event](https://github.com/go-vgo/robotgo/blob/master/examples/gohook/main.go)
+#### [Event](https://github.com/exitstop/robotgo/blob/master/examples/gohook/main.go)
 
 ```Go
 package main
@@ -225,7 +225,7 @@ package main
 import (
   "fmt"
 
-  "github.com/go-vgo/robotgo"
+  "github.com/exitstop/robotgo"
   hook "github.com/robotn/gohook"
 )
 
@@ -278,7 +278,7 @@ func event() {
 }
 ```
 
-#### [Window](https://github.com/go-vgo/robotgo/blob/master/examples/window/main.go)
+#### [Window](https://github.com/exitstop/robotgo/blob/master/examples/window/main.go)
 
 ```Go
 package main
@@ -286,7 +286,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/exitstop/robotgo"
 )
 
 func main() {
@@ -338,12 +338,12 @@ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64
 // CXX=mingw-w64\x86_64-7.2.0-win32-seh-rt_v5-rev1\mingw64\bin\g++.exe
 ```
 
-Some discussions and questions, please see [issues/228](https://github.com/go-vgo/robotgo/issues/228), [issues/143](https://github.com/go-vgo/robotgo/issues/143).
+Some discussions and questions, please see [issues/228](https://github.com/exitstop/robotgo/issues/228), [issues/143](https://github.com/exitstop/robotgo/issues/143).
 
 ## Authors
 * [The author is vz](https://github.com/vcaesar)
 * [Maintainers](https://github.com/orgs/go-vgo/people)
-* [Contributors](https://github.com/go-vgo/robotgo/graphs/contributors)
+* [Contributors](https://github.com/exitstop/robotgo/graphs/contributors)
 
 ## Plans
 - Update Find an image on screen, read pixels from an image
@@ -352,11 +352,11 @@ Some discussions and questions, please see [issues/228](https://github.com/go-vg
 
 ## Contributors
 
-- See [contributors page](https://github.com/go-vgo/robotgo/graphs/contributors) for full list of contributors.
-- See [Contribution Guidelines](https://github.com/go-vgo/robotgo/blob/master/CONTRIBUTING.md).
+- See [contributors page](https://github.com/exitstop/robotgo/graphs/contributors) for full list of contributors.
+- See [Contribution Guidelines](https://github.com/exitstop/robotgo/blob/master/CONTRIBUTING.md).
 
 ## License
 
 Robotgo is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0), with portions covered by various BSD-like licenses.
 
-See [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0), [LICENSE-MIT](https://github.com/go-vgo/robotgo/blob/master/LICENSE).
+See [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0), [LICENSE-MIT](https://github.com/exitstop/robotgo/blob/master/LICENSE).
