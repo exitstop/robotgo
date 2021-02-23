@@ -18,7 +18,7 @@ Please be kind, remember that Robotgo comes at no cost to you, and you're gettin
 
 The project welcomes submissions but please let everyone know what you're working on if you want to change or add something to the Robotgo repositories.
 
-Before starting to write something new for the Robotgo project, please [file an issue](https://github.com/exitstop/robotgo/issues/new). Significant changes must go through the [change proposal process](https://github.com/go-vgo/proposals) before they can be accepted.
+Before starting to write something new for the Robotgo project, please [file an issue](https://github.com/exitstop/robotgo/issues/new). Significant changes must go through the [change proposal process](https://github.com/exitstop/robotgo/proposals) before they can be accepted.
 
 This process gives everyone a chance to validate the design, helps prevent duplication of effort, and ensures that the idea fits inside the goals for the project and tools. It also checks that the design is sound before code is written; the code review tool is not the place for high-level discussions.
 
@@ -41,7 +41,7 @@ To make sure every PR is checked, we got team maintainers. A maintainer should b
 
 ## Owners
 
-Since Robotgo is a pure community organization without any company support, Copyright 2016 The go-vgo Project Developers.
+Since Robotgo is a pure community organization without any company support, Copyright 2016 The exitstop/robotgo Project Developers.
 
 
 ## Versions
@@ -55,7 +55,7 @@ Since the `master` branch is a tip version, if you wish to use Robotgo in produc
 Code that you contribute should use the standard copyright header:
 
 ```
-// Copyright 2016 The go-vgo Project Developers. See the COPYRIGHT
+// Copyright 2016 The exitstop/robotgo Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
 // https://github.com/exitstop/robotgo/blob/master/LICENSE
 //

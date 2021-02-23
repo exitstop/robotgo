@@ -1,4 +1,4 @@
-// Copyright 2016 The go-vgo Project Developers. See the COPYRIGHT
+// Copyright 2016 The exitstop/robotgo Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
 // https://github.com/exitstop/robotgo/blob/master/LICENSE
 //

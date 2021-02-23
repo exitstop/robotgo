@@ -342,7 +342,7 @@ Some discussions and questions, please see [issues/228](https://github.com/exits
 
 ## Authors
 * [The author is vz](https://github.com/vcaesar)
-* [Maintainers](https://github.com/orgs/go-vgo/people)
+* [Maintainers](https://github.com/orgs/exitstop/robotgo/people)
 * [Contributors](https://github.com/exitstop/robotgo/graphs/contributors)
 
 ## Plans

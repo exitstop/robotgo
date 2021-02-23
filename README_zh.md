@@ -337,7 +337,7 @@ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64
 
 ## Authors
 * [The author is vz](https://github.com/vcaesar)
-* [Maintainers](https://github.com/orgs/go-vgo/people)
+* [Maintainers](https://github.com/orgs/exitstop/robotgo/people)
 * [Contributors](https://github.com/exitstop/robotgo/graphs/contributors)
 
 ## Plans
